@@ -33,5 +33,6 @@ Host 10.1.1.1 sends an outbound packet to the local border router configured wit
 
 ## How PAT Works(Overloading)
 With overloading, all inside hosts get translated to one single IP address. Port numbers are used at the Transport later to identify the local host(s), which in turn allows us to use up to 65,0000 hosts with one real IP address.
-![](https://github.com/azul-007/Networking-Concepts/blob/master/Images/Port%20Address%20Translation.jpg)
+![](https://github.com/azul-007/Networking-Concepts/blob/master/Images/PortAddressTranslation.jpg)
+
 
