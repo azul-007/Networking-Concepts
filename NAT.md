@@ -26,3 +26,6 @@ many to one -- using different ports.
 Addresses used after NAT translations are called global addresses. These are usually the public addresses used on the internet.
 Inside local addresses are actually the private address of the sending host that's trying to get to the Internet, while the
 outside local address is the address of the destination host.
+
+## How Nat Works
+Host 10.1.1.1 sends an outbound packet to the local border router configured with NAT. The router identifies the IP address as an inside local IP address destined for an outside network, translates the address and documents the translation in the NAT table. The packet is sent to the outside interface with the new translated source address. The external host returns the packet to the destination host, and the NAT router translates the inside global IP address back to the inside local IP address using the NAT table.
