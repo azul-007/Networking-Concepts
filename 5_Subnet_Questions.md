@@ -12,13 +12,11 @@ counting at zero in blocks of 64 until you reach the subnet mask value, and thes
 are your subnets. 0, 64, 128,192.
 
 ## 4. What's the broadcast address for each subnet? Because we counted our subnets in the 
-## last section as 0, 64, 128, 192, the broadcast address is always the number to the right
-## before the next subnet.
+## last section as 0, 64, 128, 192, the broadcast address is always the number to the right before the next subnet.
 **Example:** The 0 subnet has a broadcast of 63 because the next subnet is 64. The 64 subnet 
 has a broadcast address of 127 because the next subnet is 128. Remember, the broadcast of the
 last subnet is always 255.
 
-## 5. What are the valid hosts? Valid hosts are the numbers between the subnets, omitting all
-## the 0s and all the 1s. 
+## 5. What are the valid hosts? Valid hosts are the numbers between the subnets, omitting all the 0s and all the 1s. 
 **Example:** If 64 is the subnet number and 127 is the broadcast address, then 65 - 126 is the
 valid host range - it's always the numbers between the subnet address and the broadcast address.
