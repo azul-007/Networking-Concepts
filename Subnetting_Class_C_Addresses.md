@@ -50,22 +50,22 @@ Subnet Mask = 255.255.255.192
 * 192 subnetmask, broadcast is 255
 
 5. What are the valid hosts for each subnet?
-* Subnet: 0
+* **Subnet: 0
 * First Host: 1
 * Last Host: 62
 * Broadcast: 63
 
-* Subnet: 64
+* **Subnet: 64
 * First Host: 65
 * Last Host: 126
 * Broadcast: 127
 
-* Subnet: 128
+* **Subnet: 128
 * First Host: 129
 * Last Host: 190
 * Broadcast:191
 
-* Subnet: 192
+* **Subnet: 192
 * First Host: 193
 * Last Host: 254
 * Broadcast: 255
