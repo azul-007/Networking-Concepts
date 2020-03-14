@@ -6,3 +6,5 @@ If you want inter-VLAN communication, you will still need a router.
 
 # VLAN Basics
 The below image depicts how Layer 2 switched networks are typically designed - as flat networks. With this configuration, every broadcast packet transmitted is seen by every device on the network regardless of whether the device needs to receive that data or not.
+
+![](https://github.com/azul-007/Networking-Concepts/blob/master/Images/flat_network.jpg)
