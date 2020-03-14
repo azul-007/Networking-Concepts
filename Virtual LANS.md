@@ -14,3 +14,7 @@ The reason it's called a flat network is because of it's one broadcast domain, n
 ## Physical LANs Connected to a router
 To understand how a VLAN looks to a switch, it's helpful to begin by first looking at a traditional network.
 ![](https://github.com/azul-007/Networking-Concepts/blob/master/Images/physical_lan.jpg)
+
+* Each network is attached with a hub port to the router.
+* Each host attached to a particular physical network has to match that network's logical network number in order to be able to communicate on the internetwork.
+* Each department has its own LAN - to add them to the Sales department, plug them into the Sales LAN and they would automatically be part of the Sales collision and broadcast domain.
