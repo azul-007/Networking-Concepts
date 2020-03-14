@@ -90,32 +90,32 @@ Count the zeros. 2^5 - 2 = 30 hosts.
 0,32,64,96,128,160,192,224
 
 4. What's the broadcast address
-Subnet Mask:0
-First Valid Host: 1
-Last Valid Host: 30
-Broadcast: 31
+**Subnet Mask:0
+* First Valid Host: 1
+* Last Valid Host: 30
+* Broadcast: 31
 
-Subnet Mask: 32
-First Valid Host: 33
-Last Valid Host:62
-Broadcast:63
+* Subnet Mask: 32
+* First Valid Host: 33
+* Last Valid Host:62
+* Broadcast:63
 
-Subnet Mask: 96
-First Valid Host: 97
-Last Valid Host: 126
-Broadcast: 127
+* Subnet Mask: 96
+* First Valid Host: 97
+* Last Valid Host: 126
+* Broadcast: 127
 
-Subnet Mask: 128
-First Valid Host: 129
-Last Valid Host: 158
-Broadcast: 159
+* Subnet Mask: 128
+* First Valid Host: 129
+* Last Valid Host: 158
+* Broadcast: 159
 
-Subnet Mask: 160
-First Valid Host: 161
-Last Valid Host: 190
-Broadcast: 191
+* Subnet Mask: 160
+* First Valid Host: 161
+* Last Valid Host: 190
+* Broadcast: 191
 
-Subnet Mask: 224
-First Valid Host: 225
-Last Valid Host: 254
-Broadcast: 255
+* Subnet Mask: 224
+* First Valid Host: 225
+* Last Valid Host: 254
+* Broadcast: 255
