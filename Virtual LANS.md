@@ -11,4 +11,6 @@ The below image depicts how Layer 2 switched networks are typically designed - a
 
 The reason it's called a flat network is because of it's one broadcast domain, not because the actual design is physically flat.
 
+## Physical LANs Connected to a router
+To understand how a VLAN looks to a switch, it's helpful to begin by first looking at a traditional network.
 ![](https://github.com/azul-007/Networking-Concepts/blob/master/Images/physical_lan.jpg)
