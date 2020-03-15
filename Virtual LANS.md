@@ -30,7 +30,9 @@ Why not just plug the Sales team member into the Finance hub?
 * For this user to access the Sales network services they would have to go through the router to log in to the Sales server. 
 
 # What does a Switch accomplish for us?
-The following image show how six VLANS (2-7) are used to create a broadcast domain for each department. Each switch port is then administratively assigned a VLAN membership
+The following image show how six VLANS (2-7) are used to create a broadcast domain for each department. Each switch port is then administratively assigned a VLAN membership.
+
+![](https://github.com/azul-007/Networking-Concepts/blob/master/Images/VLANS.jpg)
 
 Now if we needed to add another user to the Sales VLAN, we could just assign the port to VLAN 7 regardless of where the new Sales team member is physically located.
 
