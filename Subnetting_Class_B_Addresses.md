@@ -26,3 +26,14 @@ The table below depicts the broadcasts for each subnet and the valid hosts.
 
 ![](https://github.com/azul-007/Networking-Concepts/blob/master/Images/subnetting-Page-2.jpg)
 
+## Practice Example #3B: 255.255.240.0 /20
+Network Address = 172.16.0.0
+Subnet Mask = 255.255.240.0
+240 = 11110000
+1) Subnets? 2^X, 2^4 = 16 subnets
+2) Hosts? 2^y-2, 2^12-2 = 4094
+3) Valid Subnets? 256-240=16
+
+The table below depicts the broadcasts for each subnet and the valid hosts.
+
+![](https://github.com/azul-007/Networking-Concepts/blob/master/Images/subnetting_classb_example3-Page-3.jpg)
